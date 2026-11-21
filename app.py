@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 scaler = joblib.load('scaler.pkl')
-model = joblib.load('model.pkl')
+model = joblib.load('best_model.pkl')
 
 st.title("Churn Prediction App")
 
